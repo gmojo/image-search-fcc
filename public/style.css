@@ -1,0 +1,46 @@
+/* styles */
+/* called by your view template */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding-bottom: 120px;
+
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  overflow:auto
+}
+
+.social_list li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    font-size:30px;
+}
+
+footer {
+  position: absolute;
+  height: 120px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
